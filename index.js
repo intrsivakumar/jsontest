@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 app.post('/login', (req, res) => {
     console.log("request: ", req.body);
-    res.json(getPersona().professional);
+    res.json(getPersona());
 })
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
