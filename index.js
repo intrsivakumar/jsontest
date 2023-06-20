@@ -4,7 +4,7 @@ const { getPersona } = require('./persona');
 
 const app = express()
 app.use(bodyParser.json());
-const port = 8000
+const port = process.env.PORT || 8000
 
 app.get('/', (req, res) => {
     res.json({ user: 'geek' });
