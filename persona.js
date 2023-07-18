@@ -113,12 +113,12 @@ const json = {
         ]
     },
     "student": {
-        "userData": [
+         "userData": [
             {
                 "name": "Ram",
                 "accountNumber": "2212",
                 "amountInAccount": "5,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "appThemes": [
@@ -138,7 +138,7 @@ const json = {
         ],
         "banner": "banner1",
         "quickAccess": [
-            "Acc overview",
+            "Account overview",
             "Scan and pay",
             "Recharge"
         ],
@@ -152,7 +152,7 @@ const json = {
             {
                 "pageName": "Cards",
                 "components": [
-                    "Debit card"
+                    "Debit Card"
                 ]
             },
             {
@@ -189,13 +189,13 @@ const json = {
                 "name": "Farook",
                 "accountNumber": "2212",
                 "amountInAccount": "14,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "appThemes": [
             {
                 "themeName": "theme3",
-                "subThemeName": "subTheme3",
+                "subThemeName":"subTheme3",
                 "themePreviewImage": "ImagePath"
             }
         ],
@@ -248,7 +248,7 @@ const json = {
             {
                 "pageName": "Account",
                 "components": [
-                    "Current Account"
+                    "Corporate Account"
                 ]
             },
             {
@@ -263,8 +263,8 @@ const json = {
         "personName": "Home maker",
         "appThemes": [
             {
-                "themeName": "theme3",
-                "subThemeName": "subTheme3",
+                "themeName": "theme2",
+                "subThemeName": "subTheme2",
                 "themePreviewImage": "ImagePath"
             }
         ],
@@ -273,7 +273,7 @@ const json = {
                 "name": "Swetha",
                 "accountNumber": "2212",
                 "amountInAccount": "5,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "banner": "banner3",
@@ -344,7 +344,7 @@ const json = {
                 "name": "Gopal",
                 "accountNumber": "2212",
                 "amountInAccount": "23,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "banner": "banner5",
@@ -365,7 +365,8 @@ const json = {
             {
                 "pageName": "Deposit",
                 "components": [
-                    "FD"
+                    "FD",
+                    "RD"
                 ]
             },
             {
@@ -407,21 +408,21 @@ const json = {
             }
         ]
     },
-    "sme": {
+    "sme":  {
         "personName": "SME",
         "userData": [
             {
                 "name": "Ashok",
                 "accountNumber": "2212",
                 "amountInAccount": "26,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "appThemes": [
             {
                 "themeName": "theme6",
                 "subThemeName": "subTheme6",
-                "themePreviewImage": "ImagePath"
+                "themePreviewImage": "ImagePath" 
             }
         ],
         "banner": "banner6",
@@ -450,11 +451,11 @@ const json = {
                     "Business Loan",
                     "Vehicle Loan"
                 ]
-            },
+            }, 
             {
                 "pageName": "Insurance",
                 "components": [
-                    "Vehicle Insurance",
+                    "Travel Insurance",
                     "Property Insurance"
                 ]
             },
@@ -479,18 +480,19 @@ const json = {
                 "name": "Rishi",
                 "accountNumber": "2212",
                 "amountInAccount": "1,89,470",
-                "userProfile": "userProfile1"
+                "userProfile":"userProfile1"
             }
         ],
         "appThemes": [
             {
-                "themeName": "Theme 6",
+                "themeName": "Theme 4",
+                "subThemeName": "subTheme4",
                 "themePreviewImage": "ImagePath"
             }
         ],
         "banner": "banner4",
         "quickAccess": [
-            "Funds transfer",
+            "Funds Transfer",
             "Loan and card offers",
             "Book tickets"
         ],
@@ -505,7 +507,7 @@ const json = {
             {
                 "pageName": "Cards",
                 "components": [
-                    "Credit card"
+                    "Credit Card"
                 ]
             },
             {
