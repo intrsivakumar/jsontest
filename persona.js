@@ -276,7 +276,7 @@ const json = {
                 "userProfile":"userProfile1"
             }
         ],
-        "banner": "banner3",
+        "banner": "banner2",
         "quickAccess": [
             "Account overview",
             "Scan and pay",
